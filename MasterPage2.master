@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+ <title>Fudo</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+    new WOW().init();
+</script>
+<script src="js/simpleCart.min.js"> </script>	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+        });
+    });
+		</script>
+</head>
+
+<script src='../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+    (function () {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+            // format, zoneKey, segment:value, options
+            _bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+        }
+    })();
+</script>
+<script>
+    (function () {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+            // format, zoneKey, segment:value, options
+            _bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+        }
+    })();
+</script>
+<script>
+    (function () {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+            // format, zoneKey, segment:value, options
+            _bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+        }
+    })();
+</script><script>
+             (function (v, d, o, ai) { ai = d.createElement("script"); ai.defer = true; ai.async = true; ai.src = v.location.protocol + o; d.head.appendChild(ai); })(window, document, "../../../../vdo.ai/core/w3layouts/vdo.ai.js");
+	</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125810435-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125810435-1');
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-30027142-1', 'w3layouts.com');
+    ga('send', 'pageview');
+</script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <form id="form1" runat="server">
+   <div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="Default.aspx"><img src="images/food.png" class="img-responsive" alt="" /></a>
+				</div>
+				<div class="queries">
+					<p>Questions? Call us Toll-free!<span>+91 9923412218</span><label>(11am to 12pm)</label></p>
+				</div>
+				<div class="header-right">
+						
+					</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!---728x90--->
+
+			<div class="menu-bar">
+			<div class="container">
+				<div class="top-menu">
+					<ul>
+						<li class="active"><a href="../Default.aspx">Home</a></li>|
+						
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="login-section">
+					
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- header-section-ends -->
+	<!---728x90--->
+
+<body>
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        	<div class="contact-section" id="contact">
+			<div class="container">
+				<div class="contact-section-grids">
+					<div class="col-md-3 contact-section-grid wow fadeInLeft" data-wow-delay="0.4s">
+						<h4>Site Links</h4>
+						<ul>
+							<li><i class="point"></i></li>
+							<li class="data"><a href="#">About Us</a></li>
+						</ul>
+						<ul>
+							<li><i class="point"></i></li>
+							<li class="data"><a href="#">Contact Us</a></li>
+						</ul>
+						<ul>
+							<li><i class="point"></i></li>
+							<li class="data"><a href="#">Privacy Policy</a></li>
+						</ul>
+						<ul>
+							<li><i class="point"></i></li>
+							<li class="data"><a href="#">Terms of Use</a></li>
+						</ul>
+					</div>
+					
+					<div class="col-md-3 contact-section-grid wow fadeInRight" data-wow-delay="0.4s">
+						<h4>Follow Us On...</h4>
+						<ul>
+							<li><i class="fb"></i></li>
+							<li class="data"> <a href="#">  Facebook</a></li>
+						</ul>
+						<ul>
+							<li><i class="tw"></i></li>
+							<li class="data"> <a href="#">Twitter</a></li>
+						</ul>
+						<ul>
+							<li><i class="in"></i></li>
+							<li class="data"><a href="#"> Linkedin</a></li>
+						</ul>
+						<ul>
+							<li><i class="gp"></i></li>
+							<li class="data"><a href="#">Google Plus</a></li>
+						</ul>
+					</div>
+					
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- content-section-ends -->
+	<!-- footer-section-starts -->
+	<div class="footer">
+		<div class="container">
+			<p class="wow fadeInLeft" data-wow-delay="0.4s">&copy; 2019 Fudo Food Order Team.  All rights  Reserved | Design by &nbsp;<a href="mailto:fudoorder@gmail.com" target="target_blank">Fudo Teams</a></p>
+		</div>
+	</div>
+    </div>
+    </form>
+
+</body>
+
+</html>
